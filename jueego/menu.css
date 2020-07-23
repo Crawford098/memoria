@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+.titulo{
+    width: fit-content;
+    margin: auto;
+    margin-left: 40%;
+    margin-right: 60%;
+    margin-top: 200px;
+    
+}
+.T-memoria{
+    color: rgb(255, 102, 0);;
+    text-align: center;
+    font-size: 60px;
+}
+
+.contenedor-menu{
+    
+    width: fit-content;
+    margin-left: 40%;
+    margin-right: 60%;
+    margin-top: 50px;
+    
+}
+.nombre{
+    display: inline-block;
+
+    font-weight: bold;
+    font-size: 20px;
+    
+    border-color: rgb(255, 123, 0);
+    border-radius: 6px;
+    border-width: 3px;
+
+    height: 45px;
+    width: 290px;
+
+    color: rgb(255, 123, 0);
+    background: linear-gradient(rgba(128, 128, 128,0.4),rgba(255, 255, 255,0.9));
+ 
+}
+.buton-menu{
+    display: block;
+
+    margin: 10px;
+    
+    width: 100px;
+    height: 30px;
+    
+    
+    border-radius: 5px;
+    border:none;
+
+    background-color: rgb(255, 102, 0);
+    color: white;
+    
+    font-size: 20px;
+    
+}
+
+.buton-menu:hover{
+    
+    background-color: orangered;
+}

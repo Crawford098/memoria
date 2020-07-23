@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+body{
+
+    background: linear-gradient(135deg,white, rgb(255, 115, 21),rgb(255, 115, 21), white);
+}
+
+div.score{
+    background-color: rgb(255, 115, 21);
+    color: white;
+    width:auto;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+p.name{
+    display: inline-block;
+    margin-left:5%;
+}
+p.score{
+    display: inline-block;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+
+p.time{
+    display: inline-block;
+    
+}
+
+div.mesa{
+
+    margin:auto;
+    margin-top: 20px;
+
+    border-radius: 5px;
+    width: 1000px;
+    height: 650px;
+    background-color:white;
+    
+    box-shadow: 0px 3px 5px 2px rgb(145, 145, 145);
+}
